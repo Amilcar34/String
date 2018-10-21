@@ -3,6 +3,7 @@ package clasesDeString;
 public class PruebaEquals {
 
 	public static void main(String[] args) {
+		
 		String le = "le";
 		String lo = "le";
 		String la = "lo";
