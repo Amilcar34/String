@@ -23,6 +23,13 @@ public class PruebaEquals {
 		if(re == ri) System.out.println("tambien true false");
 		if(re.equals(ro)) System.out.println("tambien equals true true");
 		if(re.equals(ri)) System.out.println("tambien equals true true");
+		
+		String le = new String("jojo");
+		String lo = new String("jojo");
+		
+		if(le.intern() == lo.intern()) {
+			System.out.println("true");
+		}
 
 	}
 }
